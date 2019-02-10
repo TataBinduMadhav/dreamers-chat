@@ -18,6 +18,7 @@ from django.urls import include, path
 from django.conf.urls import url
 from .views import bview
 
+
 urlpatterns = [
     url(r'^tata_madhav_web_hook/?$', bview),
 ]

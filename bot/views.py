@@ -8,3 +8,6 @@ def bview(request):
         return HttpResponse(request.GET['hub.challenge'])
     else :
         return HttpResponse('Invalid Token !')
+
+def home(request):
+    return render(request, 'index.html')

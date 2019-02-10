@@ -25,7 +25,7 @@ SECRET_KEY = 'w&!0**ixr(3r*0fb^rf3b*hwp%+*@l0e_g0$*@=y+yp+n3qjww'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*','localhost','127.0.0.1','bindumadhavtata.herokuapp.com','dreamers-dairy.herokuapp.com','']
+ALLOWED_HOSTS = ['*','localhost','127.0.0.1','bindumadhavtata.herokuapp.com','dreamers-dairy.herokuapp.com','dreamers-chat.herokuapp.com']
 
 
 # Application definition
@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'fb_bot.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd7mj51p3i9ebbc',
+        'USER': 'nqcyzdfkblcdpk',
+        'PASSWORD': 'f49b4e57b208e0a1ae10fc05ef636fd4fb04a95f561fb3296f8a7041d449b73a',
+        'HOST': 'ec2-54-225-237-84.compute-1.amazonaws.com',
+        'PORT': '5432' ,
     }
 }
 

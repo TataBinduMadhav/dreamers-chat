@@ -3,6 +3,7 @@ static/
 
 *.pyc
 __pycache__/
+bot/__pycache__/
 *.py[cod]
 *$py.class
 
