@@ -4,7 +4,7 @@ from django.http.response import HttpResponse
 # Create your views here.
 
 def bview(request):
-    if request.GET['hub.verify_token'] == 'YOUR_SECRET_TOKEN':
+    if request.GET['hub.verify_token'] == '121fa08134':
         return HttpResponse(request.GET['hub.challenge'])
     else :
         return HttpResponse('Invalid Token !')
