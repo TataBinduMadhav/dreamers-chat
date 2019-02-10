@@ -1,1 +1,1 @@
-web: gunicorn mysite.wsgi
+web: gunicorn fb_bot.wsgi
