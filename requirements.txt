@@ -1,0 +1,11 @@
+Django~=2.0.6
+gunicorn
+django-heroku
+requests
+whitenoise
+social-auth-app-django
+django-cleanup
+django-crispy-forms
+pillow
+django-storages
+boto3
